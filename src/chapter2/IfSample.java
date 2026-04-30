@@ -1,0 +1,30 @@
+package chapter2;
+/*
+Демонстрация работы оператора if.
+Назовите этот файл I fSample.java
+*/
+
+class IfSample {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        if (x < y) {
+            System.out.println("Значение x меньше y");
+        }
+
+        x *= 2;
+        if (x == y) {
+            System.out.println("Теперь значение x равно y");
+        }
+
+        x *= 2;
+        if (x > y) {
+            System.out.println("Теперь значение x больше y");
+        }
+
+        if (x == y) {
+            System.out.println("Этот вывод вы не увидите");
+        }
+
+    }
+}
